@@ -85,7 +85,7 @@ nav a:hover{
     border:0;
     border-radius: 5px;
     font-size:  13px;
-    padding: 10px;
+    padding: 10px 15px;
 }
 .button:hover{
     background-color: #075b9b;
@@ -109,7 +109,7 @@ nav a:hover{
 .section-head{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
 
 }
 .content h2{
@@ -227,7 +227,6 @@ footer{
     padding: 25px 15px;
     font-size: 13px;
     margin-top: 25px;
-
 }
 footer small{
     color: #c8d9e7;
@@ -235,6 +234,123 @@ footer small{
 footer p {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.page-title{
+    background-color: #eaf5ff;
+    padding: 25px 8%;
+}
+.page-title h1{
+color:#103e69;
+margin-top:0;
+margin-bottom: 5px;
+}
+.page-title p{
+color:#5c7286;
+margin-top: 0;
+margin-bottom: 0;
+}
+.board-serch{
+    display: flex;
+    gap: 8px;
+    align-self: center;
+    margin-bottom: 15px;
+}
+.board-serch select{
+    height: 40px;
+    padding: 10px;
+    border:1px solid #cbdbe7;
+    border-radius: 5px;
+    background-color: white;
+}
+.board-serch input{
+    width: 250px;
+    height:40px;
+    padding: 10px;
+    border:1px solid #cbdbe7;
+    border-radius: 5px;
+    background-color: white;
+}
+.board-serch.button{
+    margin-left: auto;
+}
+.push-right{
+    margin-left: auto;
+}
+
+.board-table{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+.board-table th{
+    padding: 13px 7px;
+    background-color: #f0f7fc;
+    color: #304e68;
+}
+.board-table td{
+    padding: 13px 7px;
+    border-bottom: 1px solid #dce7ef;
+}
+.board-table .subject{
+    text-align: left;
+}
+.board-table .subject a:hover{
+    color: #0879d1;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 25px;
+
+}
+.pagination a{
+    border:1px solid #dce7ef;
+    border-radius: 4px;
+
+}
+.pagination active{
+
+}
+
+.article-content {
+   padding: 20px 10%;
+}
+.article-content h2{
+   border-bottom: 2px solid #dce8ef;
+   
+}
+.article-info{
+    display: flex;
+    justify-content: left;
+    gap:15px;
+    border-bottom: 1px solid #dce8ef;
+}
+.article-info span{
+font-size: 13px;
+color:#718493;
+}
+.article-body h3{
+    color:#075b9b;
+} 
+.article-buttons{
+    display: flex;
+    justify-content: right;
+    gap:10px;
+}
+.prev-next p{
+    border:2px solid #d4dbdf;
+    padding: 7px;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-left: 10%;
+}
+.prev-next b{
+    color: #075bd0;
 }
 
 /*모바일 화면에서 보기좋게 배치 (700미만 화면)*/
