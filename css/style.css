@@ -307,50 +307,108 @@ margin-bottom: 0;
     margin-top: 25px;
 
 }
-.pagination a{
-    border:1px solid #dce7ef;
+.pagination a {
+    border: 1px solid #dce7ef;
     border-radius: 4px;
-
+    padding: 5px 10px;
 }
-.pagination active{
 
+.pagination .active {
+    background-color: #0879d1;
+    color: white;
 }
 
 .article-content {
    padding: 20px 10%;
 }
 .article-content h2{
-   border-bottom: 2px solid #dce8ef;
+   border-bottom: 2px solid #dce7ef;
+   padding-bottom: 15px;
+   color:#075b9b;
    
 }
 .article-info{
     display: flex;
-    justify-content: left;
-    gap:15px;
-    border-bottom: 1px solid #dce8ef;
+    gap:20px;
+    border-bottom: 2px solid #dce7ef;
+    font-size: 13px;
+    color:#718493;
+    padding: 12px 0;
+
 }
 .article-info span{
 font-size: 13px;
 color:#718493;
+padding-bottom: 0;
+padding-top: 0;
+}
+.article-body{
+    padding: 25px 5px;
+    min-height: 250px;/*늘어날수있음*/
 }
 .article-body h3{
     color:#075b9b;
 } 
 .article-buttons{
     display: flex;
-    justify-content: right;
-    gap:10px;
+    justify-content: flex-end;
+    gap:8px;
+}
+.prev-next{
+padding-top: 0;
+margin-left: 10%;
+margin-right: 10%;
+
 }
 .prev-next p{
-    border:2px solid #d4dbdf;
-    padding: 7px;
+    border:2px solid #dce7ef;
+    padding: 10px;
     display: flex;
-    justify-content: left;
-    gap: 15px;
-    margin-left: 10%;
+    gap: 20px;
+
 }
 .prev-next b{
     color: #075bd0;
+}
+
+.form-content{
+    max-width: 850px;
+   
+}
+.form-content h2{
+   color: #075bd0;
+   
+}
+.form-content label{
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.form-content input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbdbe7;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+}
+.form-content textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbdbe7;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+    resize: vertical; /*사용자가 세로 방향으로만 입력창 확장*/
+}
+.form-buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap:8px;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 /*모바일 화면에서 보기좋게 배치 (700미만 화면)*/
